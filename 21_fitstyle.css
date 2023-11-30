@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Caveat&family=Inter:wght@300&family=Kdam+Thmor+Pro&family=Noto+Sans:wght@300&family=PT+Sans&family=Poppins:wght@300;500&family=Roboto&family=Roboto+Slab&display=swap');
+
+:root{
+    --color: rgba(60, 99, 130,1.0);
+    --text: rgb(143, 143, 143);
+}
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    transform: 0.3s;
+}
+
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(244, 243, 243);
+    display: flex;
+    position: relative;
+    
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.img1{
+    height: 80px;
+    width: 120px;
+    display: inline;
+}
+
+.logo{
+    padding: 10px 10px;
+}
+
+.nav{
+    height: 100%;
+    width: 600px;
+    position: absolute;
+    left: 60%;
+    display: flex;
+    
+    align-items: center;
+    
+
+  
+   
+}
+.nav ul{
+    display: inline-block;
+    display: flex;
+   
+}
+
+.nav ul li{
+    list-style-type:  none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 29px;
+    cursor: pointer;
+}
+
+.nav ul li:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+i{
+    position: absolute;
+    right: 0;
+    padding: 30px 40px;
+    margin-top: 16px ;
+    cursor: pointer;
+}
+
+.head1{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/220118/pexels-photo-220118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.p1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    align-items: center;
+}
+
+.head2{
+    height: 190px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img2{
+    display: flex;
+    align-items: center;
+}
+
+.content1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.head3{
+    height: 210px;
+    width: 100%;
+    background-color:rgba(7, 153, 146,1.0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.head3 h2{
+    font-size: 35px;
+}
+
+.maincontent1{
+    height: 700px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.main{
+    width: 410px;
+    height: 400px;
+    display: inline-block;
+    margin: 60px 0px; 
+}
+.main img{
+    opacity: 0.7;
+    margin-left: 50px;
+}
+
+.maincontent1 .main img:hover{
+    
+    opacity: 1;
+    cursor: pointer;
+}
+
+.main h2{
+    margin: 30px 0px;
+    font-size: 30px;
+    color: var(--color);
+}
+
+.main p{
+    text-align: justify;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.main button{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    font-size: 20ps;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgba(10, 61, 98,1.0);
+    color: white;
+    cursor: pointer;
+}
+
+.main button:hover{
+    opacity: 0.9;
+}
+
+.maincontent2{
+    width: 80%;
+    height: 600px ;
+    
+    margin: 0 auto;
+    display: flex;
+    
+    margin-top: 100px;
+    
+}
+
+.inside1{
+    margin-left: 40px;
+}
+
+.inside1 h2{
+    font-size: 35px;
+    font-weight: normal;
+    color: rgba(60, 99, 130,1.0);
+    
+}
+
+.inside1 p{
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(143, 143, 143);
+}
+
+.midhead{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-image: url(https://cdn.create.vista.com/api/media/small/243366262/stock-photo-blue-ripped-water-swimming-pool);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.midhead h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+
+
+}
+.last{
+    height: 1000px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.mid1{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+
+}
+
+.mid1 .midimg{
+    margin-left: 30px;
+
+
+}
+
+.mid1 .midimg h1{
+    color: var(--color);
+}
+.mid1 .midimg p{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 19px;
+    color: var(--text);
+}
+
+.mid2{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.midimg2{
+    margin-left: 30px;
+}
+.midimg2 h1{
+    color: var(--color);
+    text-align: right;
+}
+.midimg2 p{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 19px;
+    color: var(--text);
+
+}
+
+.mid3{
+    height: 390px;
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+}
+.midimg3{
+    margin-left: 30px;
+    
+}
+
+.midimg3 h1{
+    color: var(--color);
+    
+}
+.midimg3 p{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 19px;
+    color: var(--text);
+
+}
+
+.midimg3 li{
+    margin-left: 25px;
+    color: var(--text);
+    list-style: square;
+}
+
+.lastmid{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    color: var(--color);
+
+    margin: 0 auto;
+}
+
+.lastmid h1{
+    margin: 80px;
+    text-align: center;
+}
+
+.lastmidimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lastmidimg p{
+    text-align: center;
+    color: var(--text);
+}
+
+.lastmid1{
+    height: 300px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.lastmid1 h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgba(7, 153, 146,1.0);
+}
+
+.uolist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.uolist ul li{
+    margin-top: 50px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.lastmid2{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.insidelast1 p{
+    font-size: 20px;
+    color: var(--text);
+}
+
+.kadaisi{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.q1 h2{
+    color: var(--color);
+}
+
+.q1{
+    position: relative;
+}
+
+.form{
+    margin: 30px 0;
+   
+}
+.form label{
+    font-size: 25px;
+    margin-top: 50px;
+}
+input{
+    height: 50px;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    margin-top: 20px;
+    outline: none;
+}
+
+textarea{
+    width: 400px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+input::placeholder{
+    box-sizing: border-box;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+#ee{
+    margin-top: 30px;
+}
+
+.label{
+    margin-top: 30px;
+}
+
+#btn1{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(255, 82, 82,1.0);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.enquery img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(45, 52, 54,1.0);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot2{
+    margin-top: 30px;
+}
+
+.foot2 h3{
+    color: rgba(214, 48, 49,1.0);
+
+}
+
+.foot2 li{
+    
+    list-style: none;
+    color: rgba(223, 230, 233,1.0);
+    line-height: 30px;
+}
+
+.foot2 ul{
+    margin-top: 30px;
+}
+
+.foot2 li:hover{
+    transition: 0.4s;
+    color:rgba(214, 48, 49,1.0) ;
+    cursor: pointer;
+}
+.finish{
+    text-align: center;
+    color: rgba(178, 190, 195,1.0);
+    background-color: rgba(45, 52, 54,1.0) ;
+}
